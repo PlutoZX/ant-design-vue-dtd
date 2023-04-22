@@ -50,14 +50,14 @@ function getMentions(value = '', config) {
 }
 
 const Mentions = {
-  name: 'AMentions',
+  name: 'DMentions',
   mixins: [BaseMixin],
   inheritAttrs: false,
   model: {
     prop: 'value',
     event: 'change',
   },
-  Option: { ...Option, name: 'AMentionsOption' },
+  Option: { ...Option, name: 'DMentionsOption' },
   getMentions,
   props: {
     ...mentionsProps,

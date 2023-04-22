@@ -71,7 +71,7 @@ const generateId = (() => {
 })();
 
 export default {
-  name: 'ALayoutSider',
+  name: 'DLayoutSider',
   __ANT_LAYOUT_SIDER: true,
   mixins: [BaseMixin],
   model: {

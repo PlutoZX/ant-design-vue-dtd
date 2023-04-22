@@ -93,9 +93,9 @@ export { AbstractSelectProps, SelectValue, SelectProps };
 const SECRET_COMBOBOX_MODE_DO_NOT_USE = 'SECRET_COMBOBOX_MODE_DO_NOT_USE';
 const Select = {
   SECRET_COMBOBOX_MODE_DO_NOT_USE,
-  Option: { ...Option, name: 'ASelectOption' },
-  OptGroup: { ...OptGroup, name: 'ASelectOptGroup' },
-  name: 'ASelect',
+  Option: { ...Option, name: 'DSelectOption' },
+  OptGroup: { ...OptGroup, name: 'DSelectOptGroup' },
+  name: 'DSelect',
   props: {
     ...SelectProps,
     showSearch: PropTypes.bool.def(false),

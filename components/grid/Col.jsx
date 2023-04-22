@@ -31,7 +31,7 @@ export const ColProps = {
 };
 
 export default {
-  name: 'ACol',
+  name: 'DCol',
   props: ColProps,
   inject: {
     configProvider: { default: () => ConfigConsumerProps },

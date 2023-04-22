@@ -45,7 +45,7 @@ describe('List', () => {
       wrapper
         .find('.ant-transfer-list-header')
         .find({
-          name: 'ACheckbox',
+          name: 'DCheckbox',
         })
         .props().checked,
     ).toBeTruthy();

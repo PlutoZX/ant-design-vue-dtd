@@ -57,7 +57,7 @@ export const ListProps = () => ({
 
 const List = {
   Item,
-  name: 'AList',
+  name: 'DList',
   props: initDefaultProps(ListProps(), {
     dataSource: [],
     bordered: false,

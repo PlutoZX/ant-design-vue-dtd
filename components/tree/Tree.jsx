@@ -99,7 +99,7 @@ function TreeProps() {
 export { TreeProps };
 
 export default {
-  name: 'ATree',
+  name: 'DTree',
   model: {
     prop: 'checkedKeys',
     event: 'check',

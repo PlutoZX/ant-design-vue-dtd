@@ -156,7 +156,7 @@ describe('Table.filter', () => {
       }),
     );
 
-    let dropdown = wrapper.find({ name: 'ADropdown' });
+    let dropdown = wrapper.find({ name: 'DDropdown' });
     expect(dropdown.props().visible).toBe(true);
 
     wrapper.setProps({
@@ -168,7 +168,7 @@ describe('Table.filter', () => {
       ],
     });
     Vue.nextTick(() => {
-      dropdown = wrapper.find({ name: 'ADropdown' });
+      dropdown = wrapper.find({ name: 'DDropdown' });
       expect(dropdown.props().visible).toBe(false);
       done();
     });

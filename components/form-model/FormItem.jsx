@@ -62,7 +62,7 @@ export const FormItemProps = {
 };
 
 export default {
-  name: 'AFormModelItem',
+  name: 'DFormModelItem',
   __ANT_NEW_FORM_ITEM: true,
   mixins: [BaseMixin],
   props: initDefaultProps(FormItemProps, {

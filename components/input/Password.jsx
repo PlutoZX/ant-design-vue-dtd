@@ -13,7 +13,7 @@ const ActionMap = {
 };
 
 export default {
-  name: 'AInputPassword',
+  name: 'DInputPassword',
   mixins: [BaseMixin],
   inheritAttrs: false,
   model: {

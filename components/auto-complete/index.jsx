@@ -40,7 +40,7 @@ const AutoCompleteProps = {
 };
 
 const AutoComplete = {
-  name: 'AAutoComplete',
+  name: 'DAutoComplete',
   props: {
     ...AutoCompleteProps,
     prefixCls: PropTypes.string,
@@ -53,8 +53,8 @@ const AutoComplete = {
     filterOption: PropTypes.oneOfType([PropTypes.bool, PropTypes.func]).def(false),
     defaultActiveFirstOption: PropTypes.bool.def(true),
   },
-  Option: { ...Option, name: 'AAutoCompleteOption' },
-  OptGroup: { ...OptGroup, name: 'AAutoCompleteOptGroup' },
+  Option: { ...Option, name: 'DAutoCompleteOption' },
+  OptGroup: { ...OptGroup, name: 'DAutoCompleteOptGroup' },
   model: {
     prop: 'value',
     event: 'change',

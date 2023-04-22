@@ -3,7 +3,7 @@ import { filterEmpty, getListeners } from '../_util/props-util';
 import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 
 export default {
-  name: 'AInputGroup',
+  name: 'DInputGroup',
   props: {
     prefixCls: PropTypes.string,
     size: {

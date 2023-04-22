@@ -39,7 +39,7 @@ const AffixStatus = {
   Prepare: 'Prepare',
 };
 const Affix = {
-  name: 'AAffix',
+  name: 'DAffix',
   props: AffixProps,
   mixins: [BaseMixin],
   inject: {

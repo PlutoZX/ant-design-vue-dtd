@@ -78,7 +78,7 @@ export const CarouselProps = {
 };
 
 const Carousel = {
-  name: 'ACarousel',
+  name: 'DCarousel',
   props: initDefaultProps(CarouselProps, {
     dots: true,
     arrows: false,

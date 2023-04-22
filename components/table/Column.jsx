@@ -1,6 +1,6 @@
 import { ColumnProps } from './interface';
 
 export default {
-  name: 'ATableColumn',
+  name: 'DTableColumn',
   props: ColumnProps,
 };

@@ -90,7 +90,7 @@ export const AnchorProps = {
 };
 
 export default {
-  name: 'AAnchor',
+  name: 'DAnchor',
   mixins: [BaseMixin],
   inheritAttrs: false,
   props: initDefaultProps(AnchorProps, {

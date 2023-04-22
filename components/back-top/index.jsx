@@ -21,7 +21,7 @@ const BackTopProps = {
 };
 
 const BackTop = {
-  name: 'ABackTop',
+  name: 'DBackTop',
   mixins: [BaseMixin],
   props: {
     ...BackTopProps,

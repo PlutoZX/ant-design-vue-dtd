@@ -39,6 +39,6 @@ describe('ConfigProvider', () => {
       },
     });
 
-    expect(wrapper.find({ name: 'AButton' }).text()).toBe('确定');
+    expect(wrapper.find({ name: 'DButton' }).text()).toBe('确定');
   });
 });

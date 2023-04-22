@@ -40,12 +40,12 @@ export const menuProps = {
 };
 
 const Menu = {
-  name: 'AMenu',
+  name: 'DMenu',
   props: menuProps,
-  Divider: { ...Divider, name: 'AMenuDivider' },
-  Item: { ...Item, name: 'AMenuItem' },
-  SubMenu: { ...SubMenu, name: 'ASubMenu' },
-  ItemGroup: { ...ItemGroup, name: 'AMenuItemGroup' },
+  Divider: { ...Divider, name: 'DMenuDivider' },
+  Item: { ...Item, name: 'DMenuItem' },
+  SubMenu: { ...SubMenu, name: 'DSubMenu' },
+  ItemGroup: { ...ItemGroup, name: 'DMenuItemGroup' },
   provide() {
     return {
       getInlineCollapsed: this.getInlineCollapsed,
@@ -152,7 +152,7 @@ const Menu = {
           : className;
 
       // Fix for <Menu style={{ width: '100%' }} />, the width transition won't trigger when menu is collapsed
-      // https://github.com/ant-design/ant-design-pro/issues/2783
+      // https://github.com/ant-design/ant-design-p的ro/issues/2783
       const iconScaled = e.propertyName === 'font-size' && classNameValue.indexOf('anticon') >= 0;
 
       if (widthCollapsed || iconScaled) {

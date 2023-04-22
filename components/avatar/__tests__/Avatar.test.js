@@ -98,7 +98,7 @@ describe('Avatar Render', () => {
       wrapper.find('img').trigger('error');
     }, 0);
     await asyncExpect(() => {
-      expect(wrapper.find({ name: 'AAvatar' }).vm.isImgExist).toBe(true);
+      expect(wrapper.find({ name: 'DAvatar' }).vm.isImgExist).toBe(true);
     }, 0);
     await asyncExpect(() => {
       expect(global.document.body.querySelector('img').getAttribute('src')).toBe(LOAD_SUCCESS_SRC);
@@ -128,7 +128,7 @@ describe('Avatar Render', () => {
     }, 0);
 
     await asyncExpect(() => {
-      expect(wrapper.find({ name: 'AAvatar' }).vm.isImgExist).toBe(false);
+      expect(wrapper.find({ name: 'DAvatar' }).vm.isImgExist).toBe(false);
       expect(wrapper.findAll('.ant-avatar-string').length).toBe(1);
     }, 0);
 
@@ -136,7 +136,7 @@ describe('Avatar Render', () => {
       wrapper.setData({ src: LOAD_SUCCESS_SRC });
     });
     await asyncExpect(() => {
-      expect(wrapper.find({ name: 'AAvatar' }).vm.isImgExist).toBe(true);
+      expect(wrapper.find({ name: 'DAvatar' }).vm.isImgExist).toBe(true);
       expect(wrapper.findAll('.ant-avatar-image').length).toBe(1);
     }, 0);
   });

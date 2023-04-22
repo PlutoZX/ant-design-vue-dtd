@@ -14,7 +14,7 @@ import Icon from '../icon';
 
 const DropdownProps = getDropdownProps();
 const Dropdown = {
-  name: 'ADropdown',
+  name: 'DDropdown',
   props: {
     ...DropdownProps,
     prefixCls: PropTypes.string,

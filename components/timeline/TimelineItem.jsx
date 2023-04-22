@@ -17,7 +17,7 @@ export const TimeLineItemProps = {
 };
 
 export default {
-  name: 'ATimelineItem',
+  name: 'DTimelineItem',
   props: initDefaultProps(TimeLineItemProps, {
     color: 'blue',
     pending: false,

@@ -68,7 +68,7 @@ function fixLocale(value, localeCode) {
 }
 
 export default {
-  name: 'ARangePicker',
+  name: 'DRangePicker',
   mixins: [BaseMixin],
   model: {
     prop: 'value',

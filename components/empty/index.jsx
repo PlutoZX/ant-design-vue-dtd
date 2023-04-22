@@ -22,7 +22,7 @@ export const EmptyProps = () => {
 };
 
 const Empty = {
-  name: 'AEmpty',
+  name: 'DEmpty',
   props: {
     ...EmptyProps(),
   },

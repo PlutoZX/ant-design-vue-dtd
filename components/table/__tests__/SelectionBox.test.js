@@ -104,7 +104,7 @@ describe('SelectionBox', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      wrapper.findAll({ name: 'ACheckbox' }).wrappers.forEach(box => {
+      wrapper.findAll({ name: 'DCheckbox' }).wrappers.forEach(box => {
         expect(box.props().name).toEqual(checkboxProps.name);
         expect(box.props().id).toEqual(checkboxProps.id);
       });
@@ -132,7 +132,7 @@ describe('SelectionBox', () => {
       sync: false,
     });
     Vue.nextTick(() => {
-      wrapper.findAll({ name: 'ARadio' }).wrappers.forEach(radio => {
+      wrapper.findAll({ name: 'DRadio' }).wrappers.forEach(radio => {
         expect(radio.props().name).toEqual(radioProps.name);
         expect(radio.props().id).toEqual(radioProps.id);
       });

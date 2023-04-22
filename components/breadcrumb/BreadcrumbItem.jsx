@@ -5,7 +5,7 @@ import DropDown from '../dropdown/dropdown';
 import Icon from '../icon';
 
 export default {
-  name: 'ABreadcrumbItem',
+  name: 'DBreadcrumbItem',
   __ANT_BREADCRUMB_ITEM: true,
   props: {
     prefixCls: PropTypes.string,

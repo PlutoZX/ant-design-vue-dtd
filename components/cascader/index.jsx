@@ -137,7 +137,7 @@ const defaultDisplayRender = ({ labels }) => labels.join(' / ');
 
 const Cascader = {
   inheritAttrs: false,
-  name: 'ACascader',
+  name: 'DCascader',
   mixins: [BaseMixin],
   props: CascaderProps,
   model: {

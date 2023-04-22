@@ -3,7 +3,7 @@ import VcCollapse, { panelProps } from '../vc-collapse';
 import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 
 export default {
-  name: 'ACollapsePanel',
+  name: 'DCollapsePanel',
   props: {
     ...panelProps(),
   },

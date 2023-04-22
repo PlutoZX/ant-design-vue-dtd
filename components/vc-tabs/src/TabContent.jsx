@@ -12,7 +12,7 @@ export default {
     animated: { type: Boolean, default: true },
     animatedWithMargin: { type: Boolean, default: true },
     prefixCls: {
-      default: 'ant-tabs',
+      default: 'dtd-tabs', // TODO zx
       type: String,
     },
     activeKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

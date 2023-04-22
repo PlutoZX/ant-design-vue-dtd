@@ -1040,7 +1040,7 @@ export default {
               selectedKeys={colFilters}
               confirmFilter={this.handleFilter}
               prefixCls={`${prefixCls}-filter`}
-              dropdownPrefixCls={dropdownPrefixCls || 'ant-dropdown'}
+              dropdownPrefixCls={dropdownPrefixCls || 'dtd-dropdown'} // TODO zx
               getPopupContainer={this.generatePopupContainerFunc(getPopupContainer)}
               key="filter-dropdown"
             />

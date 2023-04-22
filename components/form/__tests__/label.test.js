@@ -157,7 +157,7 @@ describe('Form', () => {
     );
     await asyncExpect(() => {
       wrapper
-        .findAll({ name: 'AForm' })
+        .findAll({ name: 'DForm' })
         .at(0)
         .findAll('label')
         .at(0)
@@ -166,7 +166,7 @@ describe('Form', () => {
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll({ name: 'AForm' })
+          .findAll({ name: 'DForm' })
           .at(0)
           .findAll('input')
           .at(0).element,
@@ -174,7 +174,7 @@ describe('Form', () => {
     });
     await asyncExpect(() => {
       wrapper
-        .findAll({ name: 'AForm' })
+        .findAll({ name: 'DForm' })
         .at(1)
         .findAll('label')
         .at(0)
@@ -183,7 +183,7 @@ describe('Form', () => {
     await asyncExpect(() => {
       expect(
         wrapper
-          .findAll({ name: 'AForm' })
+          .findAll({ name: 'DForm' })
           .at(1)
           .findAll('input')
           .at(0).element,
@@ -209,7 +209,7 @@ describe('Form', () => {
     await asyncExpect(() => {
       expect(() => {
         wrapper
-          .find({ name: 'AForm' })
+          .find({ name: 'DForm' })
           .findAll('label')
           .at(0)
           .trigger('click');
@@ -217,7 +217,7 @@ describe('Form', () => {
     });
     // 不合法id时，document.activeElement没有正确更新
     // await asyncExpect(() => {
-    //   expect(wrapper.find({ name: 'AForm' }).findAll('input').at(0).element).toBe(document.activeElement)
+    //   expect(wrapper.find({ name: 'DForm' }).findAll('input').at(0).element).toBe(document.activeElement)
     // }, 0)
   });
 });

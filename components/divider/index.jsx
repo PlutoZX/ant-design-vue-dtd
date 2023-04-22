@@ -3,7 +3,7 @@ import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 import Base from '../base';
 
 const Divider = {
-  name: 'ADivider',
+  name: 'DDivider',
   props: {
     prefixCls: PropTypes.string,
     type: PropTypes.oneOf(['horizontal', 'vertical', '']).def('horizontal'),

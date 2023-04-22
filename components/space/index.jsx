@@ -22,7 +22,7 @@ export const SpaceProps = {
 
 const Space = {
   functional: true,
-  name: 'ASpace',
+  name: 'DSpace',
   props: initDefaultProps(SpaceProps, {
     size: 'small',
     direction: 'horizontal',

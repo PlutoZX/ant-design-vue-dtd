@@ -499,8 +499,8 @@ describe('Table.rowSelection', () => {
       sync: false,
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll({ name: 'ACheckbox' }).length).toBe(5);
-      const allCheckbox = wrapper.findAll({ name: 'ACheckbox' });
+      expect(wrapper.findAll({ name: 'DCheckbox' }).length).toBe(5);
+      const allCheckbox = wrapper.findAll({ name: 'DCheckbox' });
       Array(allCheckbox.length).forEach((_, index) => {
         const checkbox = allCheckbox.at(index);
         expect(checkbox.vm.checked).toBe(true);
@@ -514,8 +514,8 @@ describe('Table.rowSelection', () => {
       });
     });
     await asyncExpect(() => {
-      expect(wrapper.findAll({ name: 'ACheckbox' }).length).toBe(4);
-      const allCheckbox = wrapper.findAll({ name: 'ACheckbox' });
+      expect(wrapper.findAll({ name: 'DCheckbox' }).length).toBe(4);
+      const allCheckbox = wrapper.findAll({ name: 'DCheckbox' });
       Array(allCheckbox.length).forEach((_, index) => {
         const checkbox = allCheckbox.at(index);
         expect(checkbox.vm.checked).toBe(true);

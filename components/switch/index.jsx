@@ -8,7 +8,7 @@ import Base from '../base';
 import warning from '../_util/warning';
 
 const Switch = {
-  name: 'ASwitch',
+  name: 'DSwitch',
   __ANT_SWITCH: true,
   model: {
     prop: 'checked',

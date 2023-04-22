@@ -1,7 +1,7 @@
 import PropTypes from '../_util/vue-types';
 
 export default {
-  name: 'ATableColumnGroup',
+  name: 'DTableColumnGroup',
   props: {
     fixed: PropTypes.oneOfType([PropTypes.bool, PropTypes.oneOf(['left', 'right'])]),
     title: PropTypes.any,

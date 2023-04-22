@@ -30,7 +30,7 @@ describe('Tree util', () => {
       },
     });
 
-    const treeWrapper = wrapper.find({ name: 'ATree' });
+    const treeWrapper = wrapper.find({ name: 'DTree' });
     const keys = calcRangeKeys(
       treeWrapper.vm.$slots.default,
       ['0-0', '0-2', '0-2-0'],

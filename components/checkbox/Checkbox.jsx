@@ -7,7 +7,7 @@ import warning from '../_util/warning';
 function noop() {}
 
 export default {
-  name: 'ACheckbox',
+  name: 'DCheckbox',
   inheritAttrs: false,
   __ANT_CHECKBOX: true,
   model: {

@@ -33,7 +33,7 @@ function getBreadcrumbName(route, params) {
 }
 
 export default {
-  name: 'ABreadcrumb',
+  name: 'DBreadcrumb',
   props: BreadcrumbProps,
   inject: {
     configProvider: { default: () => ConfigConsumerProps },

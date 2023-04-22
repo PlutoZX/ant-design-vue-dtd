@@ -34,7 +34,7 @@ function isPresetColor(color) {
   return PresetColorTypes.indexOf(color) !== -1;
 }
 export default {
-  name: 'ABadge',
+  name: 'DBadge',
   props: initDefaultProps(BadgeProps, {
     showZero: false,
     dot: false,

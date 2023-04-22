@@ -17,7 +17,7 @@ function getWatch(keys = []) {
 }
 
 const ConfigProvider = {
-  name: 'AConfigProvider',
+  name: 'DConfigProvider',
   props: {
     getPopupContainer: PropTypes.func,
     prefixCls: PropTypes.string,
@@ -60,7 +60,7 @@ const ConfigProvider = {
       return renderEmpty(h, name);
     },
     getPrefixCls(suffixCls, customizePrefixCls) {
-      const { prefixCls = 'ant' } = this.$props;
+      const { prefixCls = 'dtd' } = this.$props;
       if (customizePrefixCls) return customizePrefixCls;
       return suffixCls ? `${prefixCls}-${suffixCls}` : prefixCls;
     },

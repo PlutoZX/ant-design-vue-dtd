@@ -92,7 +92,7 @@ const renderChildren = (h, prefixCls, children) => {
 };
 
 const PageHeader = {
-  name: 'APageHeader',
+  name: 'DPageHeader',
   props: PageHeaderProps,
   inject: {
     configProvider: { default: () => ConfigConsumerProps },

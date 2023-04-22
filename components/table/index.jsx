@@ -17,7 +17,7 @@ import Base from '../base';
 Vue.use(ref, { name: 'ant-ref' });
 
 const Table = {
-  name: 'ATable',
+  name: 'DTable',
   Column: T.Column,
   ColumnGroup: T.ColumnGroup,
   props: T.props,

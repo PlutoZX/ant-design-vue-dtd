@@ -62,7 +62,7 @@ function comeFromSlot(vnodes = [], itemVnode) {
 }
 
 export default {
-  name: 'AFormItem',
+  name: 'DFormItem',
   __ANT_FORM_ITEM: true,
   mixins: [BaseMixin],
   props: initDefaultProps(FormItemProps, {

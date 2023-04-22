@@ -19,7 +19,7 @@ describe('DropdownButton', () => {
         visibleChange: () => {},
       },
     });
-    const dropdownProps = wrapper.find({ name: 'ADropdown' }).props();
+    const dropdownProps = wrapper.find({ name: 'DDropdown' }).props();
 
     Object.keys(props).forEach(key => {
       expect(dropdownProps[key]).toBe(props[key]);
@@ -40,7 +40,7 @@ describe('DropdownButton', () => {
         );
       },
     });
-    const dropdownProps = wrapper.find({ name: 'ADropdown' }).props();
+    const dropdownProps = wrapper.find({ name: 'DDropdown' }).props();
 
     expect('visible' in dropdownProps).toBe(false);
   });

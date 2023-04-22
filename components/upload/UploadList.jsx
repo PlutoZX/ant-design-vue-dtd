@@ -10,7 +10,7 @@ import classNames from 'classnames';
 import { UploadListProps } from './interface';
 
 export default {
-  name: 'AUploadList',
+  name: 'DUploadList',
   mixins: [BaseMixin],
   props: initDefaultProps(UploadListProps, {
     listType: 'text', // or picture

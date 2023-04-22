@@ -26,7 +26,7 @@ const splitObject = (obj, keys) => {
 };
 const props = abstractTooltipProps();
 export default {
-  name: 'ATooltip',
+  name: 'DTooltip',
   model: {
     prop: 'visible',
     event: 'visibleChange',

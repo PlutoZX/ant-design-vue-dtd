@@ -6,7 +6,7 @@ import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 function noop() {}
 
 export default {
-  name: 'ARadioGroup',
+  name: 'DRadioGroup',
   model: {
     prop: 'value',
   },

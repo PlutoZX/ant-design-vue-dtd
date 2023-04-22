@@ -35,7 +35,7 @@ export const AlertProps = {
 };
 
 const Alert = {
-  name: 'AAlert',
+  name: 'DAlert',
   props: AlertProps,
   mixins: [BaseMixin],
   inject: {

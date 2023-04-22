@@ -93,7 +93,7 @@ const modalProps = (defaultProps = {}) => {
 export const destroyFns = [];
 
 export default {
-  name: 'AModal',
+  name: 'DModal',
   inheritAttrs: false,
   model: {
     prop: 'visible',

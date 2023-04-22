@@ -126,7 +126,7 @@ export const ValidationRule = {
 // };
 
 const Form = {
-  name: 'AForm',
+  name: 'DForm',
   props: initDefaultProps(FormProps, {
     layout: 'horizontal',
     hideRequiredMark: false,

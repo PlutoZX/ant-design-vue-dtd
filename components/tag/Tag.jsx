@@ -26,7 +26,7 @@ const PresetColorTypes = [
 const PresetColorRegex = new RegExp(`^(${PresetColorTypes.join('|')})(-inverse)?$`);
 
 export default {
-  name: 'ATag',
+  name: 'DTag',
   mixins: [BaseMixin],
   model: {
     prop: 'visible',

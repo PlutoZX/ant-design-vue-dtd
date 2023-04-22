@@ -23,7 +23,7 @@ export const TimelineProps = {
 };
 
 export default {
-  name: 'ATimeline',
+  name: 'DTimeline',
   props: initDefaultProps(TimelineProps, {
     reverse: false,
     mode: '',

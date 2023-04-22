@@ -9,7 +9,7 @@ import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 import Base from '../base';
 
 const Drawer = {
-  name: 'ADrawer',
+  name: 'DDrawer',
   props: {
     closable: PropTypes.bool.def(true),
     destroyOnClose: PropTypes.bool,

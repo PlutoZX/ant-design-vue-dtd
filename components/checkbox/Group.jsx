@@ -5,7 +5,7 @@ import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 
 function noop() {}
 export default {
-  name: 'ACheckboxGroup',
+  name: 'DCheckboxGroup',
   model: {
     prop: 'value',
   },

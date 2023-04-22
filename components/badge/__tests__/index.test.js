@@ -56,7 +56,7 @@ describe('Badge', () => {
   //     },
   //   }, { sync: false })
   //   await asyncExpect(() => {
-  //     wrapper.find({ name: 'ABadge' }).trigger('mouseenter')
+  //     wrapper.find({ name: 'DBadge' }).trigger('mouseenter')
   //   }, 0)
 
   //   expect(wrapper.vm.$refs.tooltip.sVisible).toBe(true)

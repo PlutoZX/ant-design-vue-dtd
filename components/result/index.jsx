@@ -51,7 +51,7 @@ const renderExtra = (h, prefixCls, extra) =>
   extra && <div class={`${prefixCls}-extra`}>{extra}</div>;
 
 const Result = {
-  name: 'AResult',
+  name: 'DResult',
   props: ResultProps,
   inject: {
     configProvider: { default: () => ConfigConsumerProps },

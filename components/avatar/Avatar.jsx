@@ -4,7 +4,7 @@ import { getListeners, getComponentFromProp } from '../_util/props-util';
 import PropTypes from '../_util/vue-types';
 
 export default {
-  name: 'AAvatar',
+  name: 'DAvatar',
   props: {
     prefixCls: {
       type: String,

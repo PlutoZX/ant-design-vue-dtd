@@ -26,7 +26,7 @@ const DropdownButtonProps = {
 };
 export { DropdownButtonProps };
 export default {
-  name: 'ADropdownButton',
+  name: 'DDropdownButton',
   model: {
     prop: 'visible',
     event: 'visibleChange',

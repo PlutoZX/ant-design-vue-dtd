@@ -7,7 +7,7 @@ import { ConfigConsumerProps } from '../config-provider/configConsumerProps';
 function noop() {}
 
 export default {
-  name: 'ARadio',
+  name: 'DRadio',
   model: {
     prop: 'checked',
   },
